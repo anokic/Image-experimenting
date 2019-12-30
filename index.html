@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Image size practice</title>
+  <style>
+    .images {
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 70%;
+    }
+
+    .image {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 100%;
+    }
+
+    img {
+      max-width: 100%;
+      display: block;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+
+  <main>
+    <div class="images">
+      <div class="image">
+        <img src="assets/img/3d-img-1-inactive.png" alt="Active">
+      </div>
+      <div class="image">
+        <img src="assets/img/3d-img-2-inactive.png" alt="Active">
+      </div>
+      <div class="image">
+        <img src="assets/img/3d-img-3-inactive.png" alt="Active">
+      </div>
+    </div>
+  </main>
+</body>
+</html>
