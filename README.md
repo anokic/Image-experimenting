@@ -2,4 +2,6 @@
 
 **Description**
 
-Trying out responsive image without defining specific width. Just a simple practice from today.
+Trying out different ways to make image responsive without defining specific width. Just a simple practice from today.
+
+Peace out.
